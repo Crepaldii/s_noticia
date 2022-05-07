@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #817777;
+    background-color: #fff;
+    line-height: 17px;
+}
+.principal{
+    width: 960px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 20px;
+    line-height: 25px;
+    color: #ec008c;
+}
+h3{
+    font-size: 15px;
+    line-height: 25px;
+    color: #000;
+}
+p{
+    text-align: justify;
+}
+header{
+    background: #000000;
+    height: 88px;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    float: right;
+    padding: 20px 7px 0 0;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    padding-left: 50px;
+}
+nav ul li a{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li a:focus{
+    text-decoration: none;
+    color: #ec008c;
+}
+nav ul li a.ativo{
+    text-decoration: none;
+    color: #ec008c;
+}
+#logo{
+    color: #fff;
+    font-size: 24px;
+    font-family: tahoma,sans-serif;
+    padding-top: 10px;
+    float: left;
+}
+aside{
+    float: left;
+    width: 360px;
+}
+aside figure{
+    float: left;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 0;
+    margin: 0;
+}
+aside figure img{
+    float: left;
+    width: 110px;
+    border: 2px solid #ccc;
+    margin-right: 20px;
+}
+aside figure figcaption{
+    float: left;
+    width: 200px;
+}
+#conteudo{
+    float: left;
+    width: 600px;
+}
+.artigo{
+    border-bottom: 3px solid #ebebeb;
+    padding-bottom: 15px;
+}
+.image{
+    float: right;
+    padding: 3px 0 0 25px;
+}
+.caixa{
+    float: left;
+    width: 280px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer{
+    background: #f8f8f8;
+    font-size: 10px;
+    padding: 15px 2px 0 0;
+    color: #685d5d;
+    margin: 10px;
+    border-top: 1px solid #ccc;
+    clear: both;
+    height: 46px;
+}
+.lf{
+    float: left;
+}
+.rf{
+    float: right;
+}
+@media only screen and (max-width:600px) {
+    aside{
+        display: none;
+    }
+    body,
+    #logo,
+    #conteudo,
+    .principal,
+    header,
+    footer,
+    .caixa,
+    .artigo{
+        width: 95%;
+    }
+    footer{
+        margin-top: 0px;
+        height: 0;
+    }
+    .lf{
+        float: none;
+    }
+    .rf{
+        float: none;
+    }
+    nav ul li a{
+        font-size: 10px;
+        line-height: 10px;
+        display: inline-block;
+        padding: 6px 2px;
+        color: #000;
+    }
+    nav ul li{
+        height: auto;
+        width: auto;
+        padding: 5px;
+    }
+}
